@@ -1,12 +1,16 @@
 # PROG_OJECT_ORIENTED
-**TALLER-1**
+**WORKSHOP-1**
 
-En un mundo cada vez más interconectado, donde las voces individuales se entrelazan para formar un tejido complejo de pensaminetos, opiniones y experiencias, surge la necesidad de un espacio digital que permita la expresión genuina y directa. Este proyecto se erige como una respuesta a esa necesidad, una iniciativa que busca redefinir la manera en que las personas comparten, interactuan y se relacionan en el ámbito virtual.
+In an increasingly interconnected world, where individual voices intertwine to form a complex web of thoughts, opinions, and experiences, the need arises for a digital space that allows for genuine and direct expression. This project is a response to that need, an initiative that seeks to redefine the way people share, interact, and connect in the virtual realm, such as X (TWITTER).
 
-La esencia de esta plataforma radica en su capacidad para ser un reflejo dinámico de la sociedad contemporánea: un lugar donde las ideas fluyen sin barreras, donde cada usuario tiene la oportunidad de ser escuchado y de participar activamente en conversaciones significativas. A través de esta red social, los individuos podrán compartir sus opiniones, noticias, actualizaciones y contenido multimedia con una inmediatez que conecta corazones y mentes, eliminando las distancias físicas y culturales.
+The essence of this platform lies in its ability to be a dynamic reflection of contemporary society: a place where ideas flow without barriers, where every user has the opportunity to be heard and actively participate in meaningful conversations. Through this social network, individuals will be able to share their opinions, news, updates, and multimedia content with an immediacy that connects hearts and minds, eliminating physical and cultural distances.
 
-La plataforma no solo busca facilitar el intercambio rápido de información, sino también fomentar un entorno donde la autenticidad sea el pilar fundamental. En este espacio digital, cada publicación será una ventana abierta hacia la realidad del usuario: sus pensamientos más profundos, sus inquietudes más sinceras y sus momentos más significativos. De esta manera, se creará una red social que no solo conecta personas, sino que también construye puentes hacia la empatía y el entendimiento mutuo.
+The platform not only seeks to facilitate the rapid exchange of information, but also to foster an environment where authenticity is the cornerstone. In this digital space, each post will be an open window into the user's reality: their deepest thoughts, their most sincere concerns, and their most meaningful moments. In this way, a social network will be created that not only connects people but also builds bridges toward empathy and mutual understanding.
 
-**META**
+That's why we decided to recreate Twitter, now known as X, as a promising idea that could revitalize its relevance in the digital world, as it has historically been a unique space for real-time interaction, allowing users to follow events, news, and discussions as they unfold.
 
-Con este primer taller queremos empezar a *desarrollar* el **pensamiento orientado a objetos**, saber las caracteristicas, como utilizar y nociones basicas del **analisis y diseño orinetado a objetos**, entre estos tambien abarcando los temas de los **_(UML, maquetas, historias de usarios)_**, explorando a fondo cada una de las herramientas y con esto entregar documentos y proyectoos de **calidad**.
+In this one, we try to present a basic idea of ​​how we could create a small version of this, having a clear focus and objectives from the beginning. To help us carry out the idea, we use several tools that we specify in the **_goal_**.
+
+**GOAL**
+
+With this first workshop we want to start *developing* **object-oriented thinking**, learn the characteristics, how to use and basic notions of **object-oriented analysis and design**, including also covering the topics of **_(UML, models, user stories)_**, thoroughly exploring each of the tools and thus delivering **quality** documents and projects.
