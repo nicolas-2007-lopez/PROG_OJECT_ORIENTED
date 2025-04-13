@@ -9,4 +9,4 @@ La plataforma no solo busca facilitar el intercambio rápido de información, si
 
 **META**
 
-Con este primer taller queremos empezar a *desarrollar* el **pensamiento orientado a objetos**, tener las nociones basicas de como utilizar y las caracteristicas como son el **analisis y diseño orinetado a onjetos**, entre estos tambien abarcando los temas de los **_(UML, maquetas, historias de usarios)_**.
+Con este primer taller queremos empezar a *desarrollar* el **pensamiento orientado a objetos**, saber las caracteristicas, como utilizar y nociones basicas del **analisis y diseño orinetado a objetos**, entre estos tambien abarcando los temas de los **_(UML, maquetas, historias de usarios)_**, explorando a fondo cada una de las herramientas y con esto entregar documentos y proyectoos de **calidad**.
