@@ -1,5 +1,6 @@
 # PROG_OJECT_ORIENTED
-**Taller-1**
+**Taller-1**\n
+
 En un mundo cada vez más interconectado, donde las voces individuales se entrelazan para formar un tejido complejo de pensaminetos, opiniones y experiencias, surge la necesidad de un espacio digital que permita la expresión genuina y direct. Este proyecto se erige como una respuesta a esa necesidad, una iniciativa que busca redefinir la manera en que las personas comparten, interactuan y se relacionan en el ámbito virtual.
 
 La esencia de esta plataforma radica en su capacidad para ser un reflejo dinámico de la sociedad contemporánea: un lugar donde las ideas fluyen sin barreras, donde cada usuario tiene la oportunidad de ser escuchado y de participar activamente en conversaciones significativas. A través de esta red social, los individuos podrán compartir sus opiniones, noticias, actualizaciones y contenido multimedia con una inmediatez que conecta corazones y mentes, eliminando las distancias físicas y culturales.
