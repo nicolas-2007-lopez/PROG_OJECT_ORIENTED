@@ -21,11 +21,11 @@ Oriented programming. Classes like , demonstrate **_encapsulation_**, **_inherit
 
 A clear class structure is planned:
 
-_Model layer (User, etc.): handles main classes (User, Post, etc.)_
+ _-Model layer (User, etc.): handles main classes (User, Post, etc.)_
 
-_Controller layer: manages actions (e.g., creating posts, editing profiles)_
+ _-Controller layer: manages actions (e.g., creating posts, editing profiles)_
 
-_View layer (view interfaces and layouts): contains user interfaces and layouts_
+ _-View layer (view interfaces and layouts): contains user interfaces and layouts_
 
 UML diagrams define the relationships and behaviors between classes. Each class is designed to reflect real-life social interactions: users follow others, create posts, and receive notifications about their participation. The project structure and code are prepared for further development with abstract methods and an organized design.
 
