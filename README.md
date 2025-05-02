@@ -31,4 +31,4 @@ UML diagrams define the relationships and behaviors between classes. Each class 
 
 **GOAL**
 
-With this first workshop we want to start *developing* **object-oriented thinking**, learn the characteristics, how to use and basic notions of **object-oriented analysis and design**, including also covering the topics of **_(UML, models, user stories)_**, thoroughly exploring each of the tools and thus delivering **quality** documents and projects.
+With the workshops we want to start *developing* **object-oriented thinking**, learn the characteristics, usage mode and basic notions of **object-oriented analysis and design**, also including covering the topics of **_(UML, models, user stories)_**, thoroughly exploring each of the tools and thus delivering **quality** projects.
