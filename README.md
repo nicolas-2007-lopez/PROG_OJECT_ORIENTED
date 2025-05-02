@@ -11,6 +11,24 @@ That's why we decided to recreate Twitter, now known as X, as a promising idea t
 
 In this one, we try to present a basic idea of ​​how we could create a small version of this, having a clear focus and objectives from the beginning. To help us carry out the idea, we use several tools that we specify in the **_goal_**.
 
+**WORKSHOP-2**
+
+This project focuses on creating a Twitter/X-inspired social media platform where users can share short messages, links, and images. The goal is to provide a streamlined and interactive communication space, through features such as posts, likes, user interactions, and personalized feeds.
+
+The main objectives include offering a simple user interface that allows users to register, create profiles, and post content of up to 280 characters. Users can follow each other, interact with each other through "Likes," and receive notifications of important activities.
+
+Oriented programming. Classes like , demonstrate **_encapsulation_**, **_inheritance_**, **_abstraction_**, and **_polymorphism_**. A class extended by The platform is designed with object-oriented programming principles. **Classes** like _User_, _Post_, _Notification_, and Feed demonstrate encapsulation, inheritance, abstraction, and polymorphism. For example, Post is an abstract **class** extended by ImagePost and VideoPost, while Notification is the basis for types like LikeNotification.
+
+A clear class structure is planned:
+
+_Model layer (User, etc.): handles main classes (User, Post, etc.)_
+
+_Controller layer: manages actions (e.g., creating posts, editing profiles)_
+
+_View layer (view interfaces and layouts): contains user interfaces and layouts_
+
+UML diagrams define the relationships and behaviors between classes. Each class is designed to reflect real-life social interactions: users follow others, create posts, and receive notifications about their participation. The project structure and code are prepared for further development with abstract methods and an organized design.
+
 **GOAL**
 
 With this first workshop we want to start *developing* **object-oriented thinking**, learn the characteristics, how to use and basic notions of **object-oriented analysis and design**, including also covering the topics of **_(UML, models, user stories)_**, thoroughly exploring each of the tools and thus delivering **quality** documents and projects.
