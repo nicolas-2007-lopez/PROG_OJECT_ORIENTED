@@ -11,7 +11,7 @@ The platform not only seeks to facilitate the rapid exchange of information, but
 That's why we decided to recreate Twitter, now known as X, as a promising idea that could revitalize its relevance in the digital world, as it has historically been a unique space for real-time interaction, allowing users to follow events, news, and discussions as they unfold.
 
 In this one, we try to present a basic idea of ​​how we could create a small version of this, having a clear focus and objectives from the beginning. To help us carry out the idea, we use several tools that we specify in the **_goal_**.
-- [WORKSHOP-2](WORKSHOP-2)
+[WORKSHOP-2](WORKSHOP-2)
 **WORKSHOP-2**
 
 This project focuses on creating a Twitter/X-inspired social media platform where users can share short messages, links, and images. The goal is to provide a streamlined and interactive communication space, through features such as posts, likes, user interactions, and personalized feeds.
