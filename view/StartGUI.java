@@ -11,22 +11,22 @@ public class StartGUI extends JFrame {
     public StartGUI(AppController controller, UserManager userManager) {
         setTitle("Vibe - Bienvenido");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(800, 500); // pantalla mediana, pero puedes poner fullscreen si quieres
+        setSize(800, 500); 
         setLocationRelativeTo(null);
         setResizable(false);
 
-        // Color de fondo principal
+        
         Color fondoAzul = new Color(0x1B2A49);
         getContentPane().setBackground(fondoAzul);
 
-        // Panel principal
+        
         JPanel panel = new JPanel(new GridBagLayout());
         panel.setBackground(fondoAzul);
         add(panel);
 
         GridBagConstraints gbc = new GridBagConstraints();
 
-        // 🧱 Columna izquierda (botones)
+        
         JPanel botonesPanel = new JPanel();
         botonesPanel.setLayout(new BoxLayout(botonesPanel, BoxLayout.Y_AXIS));
         botonesPanel.setBackground(fondoAzul);
@@ -64,7 +64,7 @@ public class StartGUI extends JFrame {
         gbc.insets = new Insets(0, 50, 0, 50);
         panel.add(botonesPanel, gbc);
 
-        // 🖼️ Columna derecha (logo)
+        
         try {
             ImageIcon logo = new ImageIcon("data/logo.png");
             Image img = logo.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
