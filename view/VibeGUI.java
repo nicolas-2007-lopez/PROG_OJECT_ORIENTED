@@ -75,14 +75,14 @@ public class VibeGUI extends JFrame {
         perfilButton.addActionListener(e -> mostrarPerfil());
 
         add(leftPanel, BorderLayout.WEST);
-        // Panel superior (publicación de tuit)
+       
         JPanel topPanel = new JPanel();
         topPanel.setLayout(new BorderLayout());
         topPanel.setBackground(fondoAzul);
         topPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         
         JLabel logoLabel = new JLabel();
-        logoLabel.setPreferredSize(new Dimension(100, 100)); // tamaño del logo
+        logoLabel.setPreferredSize(new Dimension(100, 100)); 
         File logoFile = new File("data/logo.png");
     if (logoFile.exists()) {
         ImageIcon icon = new ImageIcon(logoFile.getAbsolutePath());
