@@ -13,9 +13,9 @@ public class LoginGUI extends JFrame {
         setSize(800, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLayout(new GridLayout(1, 2)); // 2 columnas
+        setLayout(new GridLayout(1, 2)); 
 
-        // Panel izquierdo (formulario)
+        
         JPanel leftPanel = new JPanel();
         leftPanel.setBackground(new Color(0x1B264F));
         leftPanel.setLayout(new BoxLayout(leftPanel, BoxLayout.Y_AXIS));
@@ -26,14 +26,14 @@ public class LoginGUI extends JFrame {
         userLabel.setFont(new Font("Arial", Font.BOLD, 14));
 
         JTextField userField = new JTextField();
-        userField.setMaximumSize(new Dimension(200, 25)); // más delgado
+        userField.setMaximumSize(new Dimension(200, 25)); 
 
         JLabel passLabel = new JLabel("PASSWORD");
         passLabel.setForeground(Color.WHITE);
         passLabel.setFont(new Font("Arial", Font.BOLD, 14));
 
         JPasswordField passField = new JPasswordField();
-        passField.setMaximumSize(new Dimension(200, 25)); // más delgado
+        passField.setMaximumSize(new Dimension(200, 25)); 
 
         JButton loginBtn = new JButton("Login");
         loginBtn.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -51,7 +51,7 @@ public class LoginGUI extends JFrame {
                 JOptionPane.showMessageDialog(this, "Credenciales incorrectas");
             }
         });
-                // Botón para volver al inicio
+               
         JButton volverBtn = new JButton("⬅️ Volver al inicio");
         volverBtn.setAlignmentX(Component.CENTER_ALIGNMENT);
         volverBtn.addActionListener(e -> {
@@ -71,13 +71,13 @@ public class LoginGUI extends JFrame {
         leftPanel.add(volverBtn);
 
 
-        // Panel derecho (logo centrado y bien posicionado)
+        
         JPanel rightPanel = new JPanel(new BorderLayout());
         rightPanel.setBackground(new Color(0x1B264F));
 
 JPanel logoWrapper = new JPanel();
 logoWrapper.setBackground(new Color(0x1B264F));
-logoWrapper.setBorder(BorderFactory.createEmptyBorder(100, 0, 0, 0)); // espacio arriba
+logoWrapper.setBorder(BorderFactory.createEmptyBorder(100, 0, 0, 0));
 
         JLabel logo = new JLabel("LOGO", SwingConstants.CENTER);
         logo.setPreferredSize(new Dimension(200, 200));
