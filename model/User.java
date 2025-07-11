@@ -31,7 +31,7 @@ public class User implements Serializable {
         return this.password.equals(input);
     }
 
-    // 🔑 getters necesarios
+   
     public String getName() { return name; }
     public String getEmail() { return email; }
     public int getAge() { return age; }
@@ -39,7 +39,7 @@ public class User implements Serializable {
     return profilePicture;
 }
 
-    // ❌ No pongas getPassword()
+    
 
 
     public Post createPost(String content, String media, String link) {
