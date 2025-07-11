@@ -75,19 +75,18 @@ public List<Tuit> getFeedDelUsuario() {
     if (feedGlobal == null) {
         feedGlobal = new ArrayList<>();
     } else {
-    // 🔁 Ordenar de más reciente a más antiguo
     feedGlobal.sort((a, b) -> b.getDate().compareTo(a.getDate()));
 }
-   } // ← cierra setCurrentUser
+   } 
 public void eliminarTuit(Tuit tuit) {
     miFeed.getTuits().remove(tuit);
     feedGlobal.remove(tuit);
-    guardarDatos(); // 👈 Muy importante: guardar después de eliminar
+    guardarDatos(); 
     System.out.println("🗑️ Tuit eliminado de memoria y archivos.");
 }
 
 
 
 
-} // ← cierra AppController
+} 
 
