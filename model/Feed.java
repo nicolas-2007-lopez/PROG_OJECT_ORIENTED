@@ -32,7 +32,7 @@ public void sortByDate() {
 
     Collections.sort(tuits, new Comparator<Tuit>() {
         public int compare(Tuit t1, Tuit t2) {
-            return t2.getDate().compareTo(t1.getDate()); // orden descendente
+            return t2.getDate().compareTo(t1.getDate()); 
         }
     });
 }
@@ -41,7 +41,7 @@ public void sortByDate() {
     public void sortByRelevance() {
         Collections.sort(tuits, new Comparator<Tuit>() {
             public int compare(Tuit t1, Tuit t2) {
-                return t2.getLikes() - t1.getLikes(); // más likes primero
+                return t2.getLikes() - t1.getLikes(); 
             }
         });
     }
