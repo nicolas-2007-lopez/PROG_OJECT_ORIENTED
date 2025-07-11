@@ -10,22 +10,22 @@ import java.io.File;
 
 public class RegisterGUI extends JFrame {
 
-    private String imagenRutaSeleccionada = ""; // para guardar la imagen
+    private String imagenRutaSeleccionada = ""; 
 
     public RegisterGUI(AppController controller, UserManager userManager) {
         setTitle("Vibe - Registro");
         setSize(800, 500);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLayout(new GridLayout(1, 2)); // Izquierda formulario, derecha logo
+        setLayout(new GridLayout(1, 2)); 
 
-        // Panel izquierdo (formulario)
+        
         JPanel leftPanel = new JPanel();
         leftPanel.setBackground(new Color(0x1B264F));
         leftPanel.setLayout(new BoxLayout(leftPanel, BoxLayout.Y_AXIS));
         leftPanel.setBorder(BorderFactory.createEmptyBorder(50, 40, 50, 40));
 
-        // Campos de entrada
+       
         JLabel nombreLabel = crearLabel("USER");
         JTextField nombreField = new JTextField();
         limitar(nombreField);
@@ -42,7 +42,7 @@ public class RegisterGUI extends JFrame {
         JTextField edadField = new JTextField();
         limitar(edadField);
 
-        // Botón para subir imagen
+        
         JButton subirFotoBtn = new JButton("Subir Imagen");
         subirFotoBtn.setAlignmentX(Component.CENTER_ALIGNMENT);
         subirFotoBtn.addActionListener(e -> {
@@ -54,7 +54,7 @@ public class RegisterGUI extends JFrame {
             }
         });
 
-        // Botón de registro
+        
         JButton registrarBtn = new JButton("Registrarse");
         registrarBtn.setAlignmentX(Component.CENTER_ALIGNMENT);
         registrarBtn.addActionListener(e -> {
@@ -79,16 +79,16 @@ public class RegisterGUI extends JFrame {
                 JOptionPane.showMessageDialog(this, "Datos inválidos.");
             }
         });
-        // Botón de volver al inicio
+        
 JButton volverBtn = new JButton("⬅️ Volver al inicio");
 volverBtn.setAlignmentX(Component.CENTER_ALIGNMENT);
 volverBtn.addActionListener(e -> {
-    dispose(); // Cierra la ventana actual
-    new StartGUI(controller, userManager).setVisible(true); // Abre la ventana inicial
+    dispose(); 
+    new StartGUI(controller, userManager).setVisible(true); 
 });
 
 
-        // Agregamos los elementos al panel izquierdo
+        
         leftPanel.add(nombreLabel);    leftPanel.add(nombreField);
         leftPanel.add(Box.createVerticalStrut(10));
         leftPanel.add(claveLabel);     leftPanel.add(claveField);
@@ -103,7 +103,7 @@ volverBtn.addActionListener(e -> {
         leftPanel.add(Box.createVerticalStrut(10));
         leftPanel.add(volverBtn);
 
-        // Panel derecho (logo centrado con padding superior)
+        
         JPanel rightPanel = new JPanel(new GridBagLayout());
         rightPanel.setBackground(new Color(0x1B264F));
 
@@ -122,7 +122,7 @@ volverBtn.addActionListener(e -> {
 
         rightPanel.add(logo, new GridBagConstraints());
 
-        // Agregar ambos paneles
+        
         add(leftPanel);
         add(rightPanel);
 
