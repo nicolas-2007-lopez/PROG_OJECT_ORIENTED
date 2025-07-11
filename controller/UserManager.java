@@ -14,7 +14,7 @@ public class UserManager {
         usuarios = cargarUsuarios();
     }
 
-    // Buscar usuario por correo
+    
     public User buscarUsuario(String correo) {
         for (User u : usuarios) {
             if (u.getEmail().equalsIgnoreCase(correo)) {
@@ -24,7 +24,7 @@ public class UserManager {
         return null;
     }
 
-    // Registrar nuevo usuario
+    
     public User registrarUsuario(String nombre, String correo, String clave, int edad, String foto) {
     User nuevo = new User(nombre, correo, clave, edad, foto);
     usuarios.add(nuevo);
