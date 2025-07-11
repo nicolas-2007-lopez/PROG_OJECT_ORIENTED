@@ -42,7 +42,7 @@ public class VibeGUI extends JFrame {
         Color fondoAzul = new Color(0x1B264F);
         getContentPane().setBackground(fondoAzul);
 
-        // Panel izquierdo con navegación
+        
         JPanel leftPanel = new JPanel();
         leftPanel.setLayout(new BoxLayout(leftPanel, BoxLayout.Y_AXIS));
         leftPanel.setBackground(fondoAzul);
@@ -80,7 +80,7 @@ public class VibeGUI extends JFrame {
         topPanel.setLayout(new BorderLayout());
         topPanel.setBackground(fondoAzul);
         topPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-        // Logo en la esquina superior izquierda
+        
         JLabel logoLabel = new JLabel();
         logoLabel.setPreferredSize(new Dimension(100, 100)); // tamaño del logo
         File logoFile = new File("data/logo.png");
@@ -145,7 +145,7 @@ topPanel.add(logoLabel, BorderLayout.WEST);
         topPanel.add(postButton, BorderLayout.EAST);
         add(topPanel, BorderLayout.NORTH);
 
-        // Panel central (feed de tuits)
+        
         feedPanel = new JPanel();
         feedPanel.setLayout(new BoxLayout(feedPanel, BoxLayout.Y_AXIS));
         feedPanel.setBackground(Color.WHITE);
@@ -157,7 +157,7 @@ topPanel.add(logoLabel, BorderLayout.WEST);
         showFeed();
     }
 
-// Parte 3: Método crearPanelTuit
+
 private JPanel crearPanelTuit(Tuit tuit, boolean esRespuesta) {
     JPanel panel = new JPanel();
     panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -168,7 +168,7 @@ private JPanel crearPanelTuit(Tuit tuit, boolean esRespuesta) {
     int indent = esRespuesta ? 30 : 0;
     panel.setBorder(BorderFactory.createEmptyBorder(5, indent + 5, 5, 5));
 
-    // Subpanel con contenido alineado
+    
     JPanel contenidoPanel = new JPanel();
     contenidoPanel.setLayout(new BoxLayout(contenidoPanel, BoxLayout.Y_AXIS));
     contenidoPanel.setBackground(Color.WHITE);
@@ -292,7 +292,7 @@ private void mostrarPerfil() {
 
     JLabel imagenPerfil;
 try {
-    String rutaFoto = user.getProfilePicture(); // ✅ sin "data/"
+    String rutaFoto = user.getProfilePicture(); 
     ImageIcon icono = new ImageIcon(rutaFoto);
     Image imagenEscalada = icono.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
     imagenPerfil = new JLabel(new ImageIcon(imagenEscalada));
