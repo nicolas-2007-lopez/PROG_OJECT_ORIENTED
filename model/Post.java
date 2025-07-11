@@ -19,7 +19,7 @@ public class Post implements Tuit, Serializable {
         this.media = (media != null) ? media : "";
         this.link = (link != null) ? link : "";
         this.author = author;
-        this.date = new Date(); // ¡esto debe estar!
+        this.date = new Date(); 
         this.likes = new ArrayList<>();
     }
 
